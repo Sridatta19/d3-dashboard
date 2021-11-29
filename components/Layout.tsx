@@ -5,7 +5,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Analytics Dashboard</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Create Next App" />
       </Head>
