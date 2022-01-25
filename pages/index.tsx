@@ -11,7 +11,15 @@ export default function Home() {
           </p>
         </div>
         <div className="grid gap-8 md:gap-16 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 w-full h-full">
-          <div className="bg-sky-200 h-64 shadow-md hover:shadow-2xl"></div>
+          <div className="h-64 shadow-md hover:shadow-2xl p-4">
+            <span className="text-xs font-semibold">International Runs</span>
+            <p className="text-xs text-gray-400 font-quattro">
+              Across all formats (Test, ODIs & T20I)
+            </p>
+            <p className="text-4xl text-gray-900 font-exo px-12 py-16">
+              25,485
+            </p>
+          </div>
           <div className="bg-sky-200 h-64 shadow-md hover:shadow-2xl"></div>
           <div className="bg-sky-200 h-64 shadow-md hover:shadow-2xl md:col-span-2"></div>
           <div className="bg-sky-200 h-64 shadow-md hover:shadow-2xl md:col-span-2 xl:col-span-3"></div>
